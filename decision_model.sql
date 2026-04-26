@@ -17,7 +17,7 @@ end as condition,
 
 case
 when [Germany [€/MWh]]]< t.costavg then 'below'else 'above'
-end as 'a,b_avg'
+end as 'a,b_avg' --above or below average
 
 
 from [dbo].[market] m
