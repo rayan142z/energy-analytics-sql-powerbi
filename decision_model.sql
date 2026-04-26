@@ -4,7 +4,7 @@ from [dbo].[market]
 )
 
 select 
-m.Datum, m.[Germany [€/MWh]]] ,
+m.Datum, m.[Germany [€/MWh]]] as cost ,
 
 case
 when temperature>10 
@@ -17,7 +17,7 @@ end as condition,
 
 case
 when [Germany [€/MWh]]]< t.costavg then 'below'else 'above'
-end as cost
+end as 'a,b_avg'
 
 
 from [dbo].[market] m
