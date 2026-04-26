@@ -89,6 +89,4 @@ An interactive Power BI dashboard was developed to visualize:
 - SQL (data transformation & analysis)  
 - Power BI (data visualization & dashboarding)  
 
----
 
-## 📁 Project Structure
